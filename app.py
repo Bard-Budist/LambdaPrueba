@@ -14,7 +14,7 @@ def lambda_handler():
             send_data()
             break
         save_database()
-        time.sleep(60)
+        time.sleep(59)
         steps = steps + 1
 
 def get_data():
